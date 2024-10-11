@@ -1,0 +1,10 @@
+{
+    "agpu-atto_table-button": {
+        "requires": [
+            "agpu-editor_atto-plugin",
+            "agpu-editor_atto-menu",
+            "event",
+            "event-valuechange"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "agpu-core-event",
+    "builds": {
+        "agpu-core-event": {
+            "jsfiles": [
+                "event.js"
+            ]
+        }
+    }
+}

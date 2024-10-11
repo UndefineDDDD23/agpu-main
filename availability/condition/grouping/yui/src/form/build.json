@@ -1,0 +1,10 @@
+{
+  "name": "agpu-availability_grouping-form",
+  "builds": {
+    "agpu-availability_grouping-form": {
+      "jsfiles": [
+        "form.js"
+      ]
+    }
+  }
+}

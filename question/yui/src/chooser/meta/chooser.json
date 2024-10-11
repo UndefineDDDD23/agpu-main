@@ -1,0 +1,7 @@
+{
+    "agpu-question-chooser": {
+        "requires": [
+            "agpu-core-chooserdialogue"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_equation-button",
+  "builds": {
+    "agpu-atto_equation-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

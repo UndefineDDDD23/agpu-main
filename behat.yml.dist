@@ -1,0 +1,13 @@
+default:
+  suites:
+    default:
+      paths: {  }
+      contexts: {  }
+  extensions:
+    Behat\MinkExtension:
+      base_url: 'http://localhost:8000'
+      browserkit_http: null
+      webdriver: null
+    agpu\BehatExtension:
+      agpudirroot: /Should/Change/To/agpu/www/dir
+      steps_definitions: {  }

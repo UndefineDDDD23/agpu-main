@@ -1,0 +1,7 @@
+{
+    "agpu-atto_recordrtc-recording": {
+        "requires": [
+            "agpu-atto_recordrtc-button"
+        ]
+    }
+}

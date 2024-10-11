@@ -1,0 +1,26 @@
+{
+  "agpu-course-util": {
+    "requires": [
+        "node"
+    ],
+    "use": [
+        "agpu-course-util-base"
+    ],
+    "submodules": {
+        "agpu-course-util-base": {
+        },
+        "agpu-course-util-section": {
+            "requires": [
+                "node",
+                "agpu-course-util-base"
+            ]
+        },
+        "agpu-course-util-cm": {
+            "requires": [
+                "node",
+                "agpu-course-util-base"
+            ]
+        }
+    }
+  }
+}

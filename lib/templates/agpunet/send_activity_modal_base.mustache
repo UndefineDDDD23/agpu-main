@@ -1,0 +1,62 @@
+{{!
+    This file is part of agpu - http://agpu.org/
+    agpu is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    agpu is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with agpu.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template core/agpunet/send_activity_modal_base
+    Modal to send activity to agpuNet
+    Example context (json):
+    {
+        "uniqid": 123456,
+        "activitytype": "assignment",
+        "activityname": "Test assignment",
+        "sharetype": "resource"
+    }
+}}
+<div class="modal agpu-has-zindex" data-region="modal-container" aria-hidden="true" role="dialog">
+    <div class="modal-dialog agpunet-share-dialog" role="document" data-region="modal" aria-labelledby="{{uniqid}}-agpunet-modal-title" tabindex="0">
+        <div class="modal-content">
+            <div class="modal-header no-border" data-region="header">
+                <div id="{{uniqid}}-agpunet-modal-title" class="modal-title" data-region="title">
+                    <h5 class="sr-only modal-title">{{#str}} agpunet:sharetoagpunet, agpu {{/str}}</h5>
+                    <div class="d-flex agpunet-share-agpunetinfo">
+                        <span class="agpunet-logo">{{#pix}} agpunet, agpu, {{#str}} agpunet:sharetoagpunet, agpu {{/str}} {{/pix}}</span>
+                        <span class="agpunet-title">{{#str}} agpunet:sharetoagpunet, agpu {{/str}}</span>
+                    </div>
+                </div>
+                <button type="button" class="btn-close" data-action="hide" aria-label="{{#cleanstr}}closebuttontitle{{/cleanstr}}">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" data-region="body">
+                <div class="agpunet-share-modal-content">
+                    <div class="agpunet-share-activity-info">
+                        <span class="agpunet-activity-type text-uppercase">{{activitytype}}</span>
+                        <span class="agpunet-activity-name">{{activityname}}</span>
+                    </div>
+                    <hr class="agpunet-share-activity-info-hr">
+                    <div class="agpunet-share-notice">
+                        {{sharenotice}}
+                    </div>
+                    {{^fullsharing}}
+                        <div class="agpunet-share-total-activities font-weight-bold ps-2 ms-3">
+                            {{selectedactivitiesnotice}}
+                        </div>
+                    {{/fullsharing}}
+                </div>
+            </div>
+            <div class="modal-footer" data-region="footer">
+                {{> core/agpunet/send_activity_modal_footer_share }}
+            </div>
+        </div>
+    </div>
+</div>

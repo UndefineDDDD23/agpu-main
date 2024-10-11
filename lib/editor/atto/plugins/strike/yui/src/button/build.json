@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_strike-button",
+  "builds": {
+    "agpu-atto_strike-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

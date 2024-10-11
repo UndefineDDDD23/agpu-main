@@ -1,0 +1,10 @@
+{
+    "name": "agpu-question-chooser",
+    "builds": {
+        "agpu-question-chooser": {
+            "jsfiles": [
+                "chooser.js"
+            ]
+        }
+    }
+}

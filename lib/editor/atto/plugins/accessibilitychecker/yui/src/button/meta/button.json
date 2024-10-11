@@ -1,0 +1,8 @@
+{
+    "agpu-atto_accessibilitychecker-button": {
+        "requires": [
+            "color-base",
+            "agpu-editor_atto-plugin"
+        ]
+    }
+}

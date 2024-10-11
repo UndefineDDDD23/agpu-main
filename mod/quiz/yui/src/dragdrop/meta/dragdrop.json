@@ -1,0 +1,19 @@
+{
+    "agpu-mod_quiz-dragdrop": {
+        "requires": [
+            "base",
+            "node",
+            "io",
+            "dom",
+            "dd",
+            "dd-scroll",
+            "agpu-core-dragdrop",
+            "agpu-core-notification",
+            "agpu-mod_quiz-quizbase",
+            "agpu-mod_quiz-util-base",
+            "agpu-mod_quiz-util-page",
+            "agpu-mod_quiz-util-slot",
+            "agpu-course-util"
+        ]
+    }
+}

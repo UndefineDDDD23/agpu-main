@@ -1,0 +1,10 @@
+{
+    "name": "agpu-report_eventlist-eventfilter",
+    "builds": {
+        "agpu-report_eventlist-eventfilter": {
+            "jsfiles": [
+                "eventfilter.js"
+            ]
+        }
+    }
+}

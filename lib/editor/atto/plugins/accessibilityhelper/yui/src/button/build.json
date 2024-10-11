@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_accessibilityhelper-button",
+  "builds": {
+    "agpu-atto_accessibilityhelper-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

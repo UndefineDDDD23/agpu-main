@@ -1,0 +1,8 @@
+{
+  "agpu-core-lockscroll": {
+    "requires": [
+        "plugin",
+        "base-build"
+    ]
+  }
+}

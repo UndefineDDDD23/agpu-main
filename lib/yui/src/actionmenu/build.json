@@ -1,0 +1,10 @@
+{
+  "name": "agpu-core-actionmenu",
+  "builds": {
+    "agpu-core-actionmenu": {
+      "jsfiles": [
+        "actionmenu.js"
+      ]
+    }
+  }
+}

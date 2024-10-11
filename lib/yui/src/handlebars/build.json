@@ -1,0 +1,10 @@
+{
+    "name": "agpu-core-handlebars",
+    "builds": {
+        "agpu-core-handlebars": {
+            "jsfiles": [
+                "handlebars.js"
+            ]
+        }
+    }
+}

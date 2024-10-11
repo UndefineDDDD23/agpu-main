@@ -1,0 +1,9 @@
+{
+  "agpu-core-chooserdialogue": {
+    "requires": [
+        "base",
+        "panel",
+        "agpu-core-notification"
+    ]
+  }
+}

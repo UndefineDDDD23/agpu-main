@@ -1,0 +1,10 @@
+{
+    "name": "agpu-form-shortforms",
+    "builds": {
+        "agpu-form-shortforms": {
+            "jsfiles": [
+                "shortforms.js"
+            ]
+        }
+    }
+}

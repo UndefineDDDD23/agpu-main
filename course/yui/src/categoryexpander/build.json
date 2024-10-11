@@ -1,0 +1,10 @@
+{
+  "name": "agpu-course-categoryexpander",
+  "builds": {
+    "agpu-course-categoryexpander": {
+      "jsfiles": [
+        "categoryexpander.js"
+      ]
+    }
+  }
+}

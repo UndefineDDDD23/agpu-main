@@ -1,0 +1,7 @@
+{
+    "agpu-atto_h5p-button": {
+        "requires": [
+            "agpu-editor_atto-plugin"
+        ]
+    }
+}

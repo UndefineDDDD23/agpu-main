@@ -1,0 +1,7 @@
+{
+    "agpu-atto_subscript-button": {
+        "requires": [
+            "agpu-editor_atto-plugin"
+        ]
+    }
+}

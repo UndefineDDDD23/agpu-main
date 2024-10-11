@@ -1,0 +1,28 @@
+{{!
+    This file is part of agpu - http://agpu.org/
+    agpu is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    agpu is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with agpu.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template core/agpunet/send_activity_modal_packaging
+    This template renders the packaging stage for agpuNet.
+    Example context (json):
+    {
+    }
+}}
+<div class="agpunet-share-modal-content text-center p-5">
+    <div class="font-weight-bold h3 p-2">{{#str}} agpunet:sharingstatus, agpu {{/str}}</div>
+    <div class="h5 font-weight-normal p-2 test-share-large">{{#str}} agpunet:sharinglargefile, agpu {{/str}}</div>
+    <div class="p-5">
+        {{> core/loading }}
+    </div>
+    <div class="h5 font-weight-normal p-2">{{#str}} agpunet:packagingandsending, agpu {{/str}}</div>
+</div>

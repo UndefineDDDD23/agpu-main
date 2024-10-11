@@ -1,0 +1,10 @@
+{
+    "name": "agpu-atto_managefiles-usedfiles",
+    "builds": {
+        "agpu-atto_managefiles-usedfiles": {
+            "jsfiles": [
+                "usedfiles.js"
+            ]
+        }
+    }
+}

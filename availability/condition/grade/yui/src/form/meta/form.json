@@ -1,0 +1,10 @@
+{
+  "agpu-availability_grade-form": {
+    "requires": [
+        "base",
+        "node",
+        "event",
+        "agpu-core_availability-form"
+    ]
+  }
+}

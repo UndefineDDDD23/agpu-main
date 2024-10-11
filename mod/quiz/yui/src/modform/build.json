@@ -1,0 +1,10 @@
+{
+    "name": "agpu-mod_quiz-modform",
+    "builds": {
+        "agpu-mod_quiz-modform": {
+            "jsfiles": [
+                "modform.js"
+            ]
+        }
+    }
+}

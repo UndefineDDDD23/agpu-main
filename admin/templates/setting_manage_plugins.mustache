@@ -1,0 +1,116 @@
+{{!
+    This file is part of agpu - http://agpu.org/
+
+    agpu is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    agpu is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with agpu.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template core_admin/setting_manage_plugins
+
+    Admin plugin management template.
+
+    Context variables required for this template:
+    * plugins
+
+    Example context (json):
+    {
+        "infocolumnname": "Food",
+        "plugins": [
+            {
+                "enabled": true,
+                "plugin": "Forum",
+                "info": "Lettuce",
+                "movedownlink": "#",
+                "toggletarget": false,
+                "togglelink": "#",
+                "settingslink": "#",
+                "uninstalllink": "#"
+            },
+            {
+                "enabled": false,
+                "plugin": "Database",
+                "info": "Cheese",
+                "moveuplink": "#",
+                "toggletarget": true,
+                "togglelink": "#",
+                "settingslink": "#",
+                "uninstalllink": "#"
+            }
+        ]
+    }
+}}
+<table class="admintable generaltable">
+    <thead>
+        <tr>
+            <th class="header">{{#str}}name, agpu{{/str}}</th>
+            {{#infocolumnname}}
+            <th class="header">{{infocolumnname}}</th>
+            {{/infocolumnname}}
+            <th class="header">{{#str}}order, agpu{{/str}}</th>
+            <th class="header">{{#str}}isenabled, plugin{{/str}}</th>
+            <th class="header">{{#str}}settings, agpu{{/str}}</th>
+            <th class="header">{{#str}}uninstall, plugin{{/str}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#plugins}}
+        <tr {{^enabled}}class="dimmed_text"{{/enabled}}>
+            <td>{{plugin}}</td>
+            {{#infocolumnname}}
+            <td>
+                {{info}}
+            </td>
+            {{/infocolumnname}}
+            <td class="text-nowrap">
+                {{#moveuplink}}
+                    <a href="{{{moveuplink}}}">
+                        {{#pix}}t/up, agpu, {{#str}} up, agpu {{/str}}{{/pix}}
+                    </a>
+                {{/moveuplink}}
+                {{^moveuplink}}
+                    {{#pix}}spacer, agpu{{/pix}}
+                {{/moveuplink}}
+
+                {{#movedownlink}}
+                    <a href="{{{movedownlink}}}">
+                        {{#pix}}t/down, agpu, {{#str}} down, agpu {{/str}}{{/pix}}
+                    </a>
+                {{/movedownlink}}
+                {{^movedownlink}}
+                    {{#pix}}spacer, agpu{{/pix}}
+                {{/movedownlink}}
+            </td>
+            <td>
+                <a href="{{{togglelink}}}">
+                    {{#toggletarget}}
+                    {{#pix}}i/show, agpu, {{#str}} enable, agpu {{/str}}{{/pix}}
+                    {{/toggletarget}}
+                    {{^toggletarget}}
+                    {{#pix}}i/hide, agpu, {{#str}} disable, agpu {{/str}}{{/pix}}
+                    {{/toggletarget}}
+                </a>
+            </td>
+            <td>
+                {{#settingslink}}
+                    <a href="{{{settingslink}}}">{{#str}}settings,plugin{{/str}}</a>
+                {{/settingslink}}
+            </td>
+            <td>
+                {{#uninstalllink}}
+                    <a href="{{{uninstalllink}}}">{{#str}}uninstall,plugin{{/str}}</a>
+                {{/uninstalllink}}
+            </td>
+        </tr>
+        {{/plugins}}
+    </tbody>
+</table>

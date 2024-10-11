@@ -1,0 +1,7 @@
+{
+    "agpu-core-event": {
+        "requires": [
+            "event-custom"
+        ]
+    }
+}

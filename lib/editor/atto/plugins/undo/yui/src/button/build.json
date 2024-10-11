@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_undo-button",
+  "builds": {
+    "agpu-atto_undo-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "agpu-mod_quiz-util",
+  "builds": {
+    "agpu-mod_quiz-util-base": {
+      "jsfiles": [
+        "base.js"
+      ]
+    },
+    "agpu-mod_quiz-util-slot": {
+      "jsfiles": [
+        "slot.js"
+      ]
+    }
+    ,
+    "agpu-mod_quiz-util-page": {
+      "jsfiles": [
+        "page.js"
+      ]
+    }
+  }
+}

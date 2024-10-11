@@ -1,0 +1,102 @@
+.agpunet-share-dialog {
+    min-height: 500px;
+
+    .modal-header {
+        .agpunet-share-agpunetinfo {
+            align-items: baseline;
+
+            .agpunet-logo {
+                display: flex;
+
+                .icon {
+                    width: auto;
+                    height: 1.3rem;
+                }
+            }
+
+            .agpunet-title {
+                display: flex;
+                padding-left: 0.5em;
+            }
+        }
+
+        &.no-border {
+            border-bottom: none;
+        }
+
+        &.no-header-text {
+            .agpunet-share-agpunetinfo {
+                .agpunet-title {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .modal-body {
+        .agpunet-share-activity-info {
+            @include border-radius();
+            @include alert-variant($primary-light-background, $primary-light-border, $body-color);
+            border-width: 1px;
+            border-style: solid;
+            padding: 0.6em 1.5em;
+            margin-bottom: 1rem;
+
+            .agpunet-share-activity-info-hr {
+                border-bottom: 1px solid $gray-300;
+            }
+
+            .agpunet-activity-type,
+            .agpunet-activity-name {
+                display: block;
+            }
+        }
+
+        .agpunet-share-notice {
+            background-color: $agpunet-share-notice-bg;
+            padding: 1rem;
+        }
+
+        .agpunet-share-modal-content {
+            .loading-icon {
+                .icon {
+                    max-width: 4em;
+                    max-height: 4em;
+                    font-size: 4em;
+                }
+            }
+
+            .agpunet-circle-status {
+                height: 18rem;
+                margin: auto;
+
+                &.success {
+                    background: radial-gradient(circle, rgba(25, 143, 81, 0.1) 9rem, transparent 9rem);
+                }
+
+                &.fail {
+                    background: radial-gradient(circle, rgba(202, 49, 32, 0.1) 9rem, transparent 9rem);
+                }
+
+                span {
+                    display: block;
+                    margin: auto;
+
+                    &.status-icon {
+                        .icon {
+                            font-size: 8rem;
+                            width: auto;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modal-footer {
+        .agpunet-share-to {
+            margin-right: auto;
+        }
+    }
+}

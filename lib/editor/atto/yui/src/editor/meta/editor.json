@@ -1,0 +1,43 @@
+{
+    "agpu-editor_atto-editor": {
+        "requires": [
+            "node",
+            "transition",
+            "io",
+            "overlay",
+            "escape",
+            "event",
+            "event-simulate",
+            "event-custom",
+            "node-event-html5",
+            "node-event-simulate",
+            "yui-throttle",
+            "agpu-core-notification-dialogue",
+            "agpu-editor_atto-rangy",
+            "handlebars",
+            "timers",
+            "querystring-stringify"
+        ]
+    },
+    "agpu-editor_atto-plugin": {
+        "requires": [
+            "node",
+            "base",
+            "escape",
+            "event",
+            "event-outside",
+            "handlebars",
+            "event-custom",
+            "timers",
+            "agpu-editor_atto-menu"
+        ]
+    },
+    "agpu-editor_atto-menu": {
+        "requires": [
+            "agpu-core-notification-dialogue",
+            "node",
+            "event",
+            "event-custom"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "agpu-atto_superscript-button",
+    "builds": {
+        "agpu-atto_superscript-button": {
+            "jsfiles": [
+                "button.js"
+            ]
+        }
+    }
+}

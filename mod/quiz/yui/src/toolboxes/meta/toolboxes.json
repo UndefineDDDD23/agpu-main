@@ -1,0 +1,14 @@
+{
+    "agpu-mod_quiz-toolboxes": {
+        "requires": [
+            "base",
+            "node",
+            "event",
+            "event-key",
+            "io",
+            "agpu-mod_quiz-quizbase",
+            "agpu-mod_quiz-util-slot",
+            "agpu-core-notification-ajaxexception"
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+YUI.add("agpu-course-util-section",function(e,o){e.namespace("agpu.core_course.util.section"),e.agpu.core_course.util.section={CONSTANTS:{SECTIONIDPREFIX:"section-"},getId:function(e){e=e.get("id").replace(this.CONSTANTS.SECTIONIDPREFIX,"");return!("number"!=typeof(e=parseInt(e,10))||!isFinite(e))&&e}}},"@VERSION@",{requires:["node","agpu-course-util-base"]});

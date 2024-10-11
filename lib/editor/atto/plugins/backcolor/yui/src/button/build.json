@@ -1,0 +1,10 @@
+{
+    "name": "agpu-atto_backcolor-button",
+    "builds": {
+        "agpu-atto_backcolor-button": {
+            "jsfiles": [
+                "button.js"
+            ]
+        }
+    }
+}

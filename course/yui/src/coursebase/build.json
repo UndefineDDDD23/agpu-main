@@ -1,0 +1,10 @@
+{
+    "name": "agpu-course-coursebase",
+    "builds": {
+        "agpu-course-coursebase": {
+            "jsfiles": [
+                "coursebase.js"
+            ]
+        }
+    }
+}

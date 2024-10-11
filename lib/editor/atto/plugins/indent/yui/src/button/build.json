@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_indent-button",
+  "builds": {
+    "agpu-atto_indent-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

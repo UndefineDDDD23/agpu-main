@@ -1,0 +1,10 @@
+{
+    "name": "agpu-mod_quiz-questionchooser",
+    "builds": {
+        "agpu-mod_quiz-questionchooser": {
+            "jsfiles": [
+                "questionchooser.js"
+            ]
+        }
+    }
+}

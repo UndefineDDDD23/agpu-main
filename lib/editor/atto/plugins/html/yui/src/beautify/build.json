@@ -1,0 +1,16 @@
+{
+    "name": "agpu-atto_html-beautify",
+    "builds": {
+        "agpu-atto_html-beautify": {
+            "jsfiles": [
+                "wrapper.js",
+                "beautify.js",
+                "beautify-css.js",
+                "beautify-html.js"
+            ]
+        }
+    },
+    "shifter": {
+        "lint": false
+    }
+}

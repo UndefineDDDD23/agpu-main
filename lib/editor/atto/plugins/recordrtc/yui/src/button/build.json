@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_recordrtc-button",
+  "builds": {
+    "agpu-atto_recordrtc-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

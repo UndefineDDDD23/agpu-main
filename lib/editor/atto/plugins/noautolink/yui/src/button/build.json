@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_noautolink-button",
+  "builds": {
+    "agpu-atto_noautolink-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

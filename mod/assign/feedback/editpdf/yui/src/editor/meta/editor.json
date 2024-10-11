@@ -1,0 +1,21 @@
+{
+  "agpu-assignfeedback_editpdf-editor": {
+    "requires": [
+        "base",
+        "event",
+        "node",
+        "io",
+        "graphics",
+        "json",
+        "event-move",
+        "event-resize",
+        "transition",
+        "querystring-stringify-simple",
+        "agpu-core-notification-dialog",
+        "agpu-core-notification-alert",
+        "agpu-core-notification-warning",
+        "agpu-core-notification-exception",
+        "agpu-core-notification-ajaxexception"
+    ]
+  }
+}

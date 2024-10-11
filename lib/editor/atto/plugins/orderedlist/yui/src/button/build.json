@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_orderedlist-button",
+  "builds": {
+    "agpu-atto_orderedlist-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

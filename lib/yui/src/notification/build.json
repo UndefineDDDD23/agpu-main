@@ -1,0 +1,41 @@
+{
+  "name": "agpu-core-notification",
+  "builds": {
+    "agpu-core-notification": {
+      "jsfiles": [
+        "notification.js"
+      ]
+    },
+    "agpu-core-notification-dialogue": {
+      "jsfiles": [
+        "shared.js",
+        "dialogue.js",
+        "info.js"
+      ]
+    },
+    "agpu-core-notification-alert": {
+      "jsfiles": [
+        "shared.js",
+        "alert.js"
+      ]
+    },
+    "agpu-core-notification-confirm": {
+      "jsfiles": [
+        "shared.js",
+        "confirm.js"
+      ]
+    },
+    "agpu-core-notification-exception": {
+      "jsfiles": [
+        "shared.js",
+        "exception.js"
+      ]
+    },
+    "agpu-core-notification-ajaxexception": {
+      "jsfiles": [
+        "shared.js",
+        "ajaxexception.js"
+      ]
+    }
+  }
+}

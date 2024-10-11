@@ -1,0 +1,13 @@
+{
+  "name": "agpu-core-blocks",
+  "builds": {
+    "agpu-core-blocks": {
+      "jsfiles": [
+        "shared.js",
+        "blocks.js",
+        "manager.js",
+        "blockregion.js"
+      ]
+    }
+  }
+}

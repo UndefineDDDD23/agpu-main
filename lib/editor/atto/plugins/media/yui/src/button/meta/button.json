@@ -1,0 +1,8 @@
+{
+    "agpu-atto_media-button": {
+        "requires": [
+            "agpu-editor_atto-plugin",
+            "agpu-form-shortforms"
+        ]
+    }
+}

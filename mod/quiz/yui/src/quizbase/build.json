@@ -1,0 +1,10 @@
+{
+    "name": "agpu-mod_quiz-quizbase",
+    "builds": {
+        "agpu-mod_quiz-quizbase": {
+            "jsfiles": [
+                "quizbase.js"
+            ]
+        }
+    }
+}

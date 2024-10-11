@@ -1,0 +1,10 @@
+{
+  "name": "agpu-core-lockscroll",
+  "builds": {
+    "agpu-core-lockscroll": {
+      "jsfiles": [
+        "lockscroll.js"
+      ]
+    }
+  }
+}

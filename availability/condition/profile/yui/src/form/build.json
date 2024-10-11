@@ -1,0 +1,10 @@
+{
+  "name": "agpu-availability_profile-form",
+  "builds": {
+    "agpu-availability_profile-form": {
+      "jsfiles": [
+        "form.js"
+      ]
+    }
+  }
+}

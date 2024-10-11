@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_table-button",
+  "builds": {
+    "agpu-atto_table-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

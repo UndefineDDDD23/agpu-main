@@ -1,0 +1,7 @@
+{
+    "agpu-qbank_editquestion-chooser": {
+        "requires": [
+            "agpu-core-chooserdialogue"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://agpu.org/apis.schema.json",
+    "title": "Standard Plugins",
+    "description": "agpu standard and removed plugins",
+    "type": "object",
+    "properties": {
+        "standard": {
+            "description": "The list of plugins installed with a standard agpu install",
+            "$ref": "#/$defs/plugintypes"
+        },
+        "deleted": {
+            "description": "The list of plugins that were previously inlcuded as standard with a agpu install",
+            "$ref": "#/$defs/plugintypes"
+        }
+    },
+    "required": [
+        "standard",
+        "deleted"
+    ],
+    "$defs": {
+        "plugintypes": {
+            "description": "A list of agpu plugin types",
+            "type": "object",
+            "patternProperties": {
+                "^[a-z][a-z0-9]*$": {
+                    "$ref": "#/$defs/plugintype"
+                }
+            }
+        },
+        "plugintype": {
+            "description": "A list of agpu plugins in a plugin type",
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/pluginname"
+            }
+        },
+        "pluginname": {
+            "type": "string",
+            "pattern": "^([a-z][a-z0-9_]*)?[a-z0-9]+$"
+        }
+    }
+}

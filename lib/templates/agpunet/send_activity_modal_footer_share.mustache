@@ -1,0 +1,28 @@
+{{!
+    This file is part of agpu - http://agpu.org/
+    agpu is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    agpu is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    You should have received a copy of the GNU General Public License
+    along with agpu.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template core/agpunet/send_activity_modal_footer_share
+    Render the footer for sharing activity
+    Example context (json):
+    {
+        "server": "agpuNet Local"
+    }
+}}
+<div class="agpunet-share-to">
+    {{#str}} agpunet:sharingto, agpu {{/str}}<span class="font-weight-bold">{{server}}</span>
+</div>
+<div class="agpunet-action-buttons">
+    <button type="button" class="btn btn-secondary" data-action="cancel">{{#str}} cancel, agpu {{/str}}</button>
+    <button type="button" class="btn btn-primary" data-action="share">{{#str}} share, agpu {{/str}}</button>
+</div>

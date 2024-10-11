@@ -1,0 +1,10 @@
+{
+    "name": "agpu-core-widget-focusafterclose",
+    "builds": {
+        "agpu-core-widget-focusafterclose": {
+            "jsfiles": [
+                "focusafter.js"
+            ]
+        }
+    }
+}

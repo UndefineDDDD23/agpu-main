@@ -1,0 +1,12 @@
+{
+    "name": "agpu-mod_quiz-toolboxes",
+    "builds": {
+        "agpu-mod_quiz-toolboxes": {
+            "jsfiles": [
+                "toolbox.js",
+                "resource.js",
+                "section.js"
+            ]
+        }
+    }
+}

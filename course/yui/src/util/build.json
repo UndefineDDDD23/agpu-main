@@ -1,0 +1,20 @@
+{
+  "name": "agpu-course-util",
+  "builds": {
+    "agpu-course-util-base": {
+      "jsfiles": [
+        "base.js"
+      ]
+    },
+    "agpu-course-util-section": {
+      "jsfiles": [
+        "section.js"
+      ]
+    },
+    "agpu-course-util-cm": {
+      "jsfiles": [
+        "cm.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "agpu-atto_undo-button": {
+        "requires": [
+            "agpu-editor_atto-plugin"
+        ]
+    }
+}

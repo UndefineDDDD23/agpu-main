@@ -1,0 +1,8 @@
+{
+  "agpu-course-categoryexpander": {
+    "requires": [
+        "node",
+        "event-key"
+    ]
+  }
+}

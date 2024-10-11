@@ -1,0 +1,1 @@
+YUI.add("agpu-mod_quiz-util-base",function(o,d){o.namespace("agpu.mod_quiz.util")},"@VERSION@");

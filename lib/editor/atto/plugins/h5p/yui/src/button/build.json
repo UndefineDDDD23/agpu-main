@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_h5p-button",
+  "builds": {
+    "agpu-atto_h5p-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

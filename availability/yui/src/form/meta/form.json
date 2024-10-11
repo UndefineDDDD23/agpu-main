@@ -1,0 +1,13 @@
+{
+  "agpu-core_availability-form": {
+    "requires": [
+        "base",
+        "node",
+        "event",
+        "event-delegate",
+        "panel",
+        "agpu-core-notification-dialogue",
+        "json"
+    ]
+  }
+}

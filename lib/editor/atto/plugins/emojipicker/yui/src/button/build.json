@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_emojipicker-button",
+  "builds": {
+    "agpu-atto_emojipicker-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

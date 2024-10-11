@@ -1,0 +1,7 @@
+{
+    "agpu-tool_lp-dragdrop-reorder": {
+        "requires": [
+            "agpu-core-dragdrop"
+        ]
+    }
+}

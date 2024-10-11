@@ -1,0 +1,7 @@
+{
+    "agpu-atto_html-codemirror": {
+        "requires": [
+            "agpu-atto_html-codemirror-skin"
+        ]
+    }
+}

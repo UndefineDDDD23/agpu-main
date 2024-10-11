@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_collapse-button",
+  "builds": {
+    "agpu-atto_collapse-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

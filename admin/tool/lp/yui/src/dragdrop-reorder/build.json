@@ -1,0 +1,10 @@
+{
+    "name": "agpu-tool_lp-dragdrop-reorder",
+    "builds": {
+        "agpu-tool_lp-dragdrop-reorder": {
+            "jsfiles": [
+                "dragdropreorder.js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_charmap-button",
+  "builds": {
+    "agpu-atto_charmap-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

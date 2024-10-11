@@ -1,0 +1,7 @@
+{
+    "agpu-atto_clear-button": {
+        "requires": [
+            "agpu-editor_atto-plugin"
+        ]
+    }
+}

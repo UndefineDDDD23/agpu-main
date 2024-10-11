@@ -1,0 +1,10 @@
+{
+    "name": "agpu-atto_subscript-button",
+    "builds": {
+        "agpu-atto_subscript-button": {
+            "jsfiles": [
+                "button.js"
+            ]
+        }
+    }
+}

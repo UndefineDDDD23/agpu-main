@@ -1,0 +1,12 @@
+{
+    "agpu-atto_equation-button": {
+        "requires": [
+            "agpu-editor_atto-plugin",
+            "agpu-core-event",
+            "io",
+            "event-valuechange",
+            "tabview",
+            "array-extras"
+        ]
+    }
+}

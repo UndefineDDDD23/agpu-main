@@ -1,0 +1,10 @@
+{
+    "name": "agpu-report_loglive-fetchlogs",
+    "builds": {
+        "agpu-report_loglive-fetchlogs": {
+            "jsfiles": [
+                "fetchlogs.js"
+            ]
+        }
+    }
+}

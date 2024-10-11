@@ -1,0 +1,16 @@
+{
+  "agpu-course-management": {
+    "requires": [
+        "base",
+        "node",
+        "io-base",
+        "agpu-core-notification-exception",
+        "json-parse",
+        "dd-constrain",
+        "dd-proxy",
+        "dd-drop",
+        "dd-delegate",
+        "node-event-delegate"
+    ]
+  }
+}

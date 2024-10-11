@@ -1,0 +1,11 @@
+{
+    "agpu-atto_html-button": {
+        "requires": [
+            "promise",
+            "agpu-editor_atto-plugin",
+            "agpu-atto_html-beautify",
+            "agpu-atto_html-codemirror",
+            "event-valuechange"
+        ]
+    }
+}

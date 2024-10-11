@@ -1,0 +1,10 @@
+{
+    "name": "agpu-gradereport_history-userselector",
+    "builds": {
+        "agpu-gradereport_history-userselector": {
+            "jsfiles": [
+                "userselector.js"
+            ]
+        }
+    }
+}

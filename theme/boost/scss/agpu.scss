@@ -1,0 +1,58 @@
+$breadcrumb-divider: "▶" !default;
+$breadcrumb-divider-rtl: "◀" !default;
+
+// Specific overrides to make Bootstrap RTL.
+@import "agpu/bootstrap-rtl";
+
+// Specific SCSS to make some Bootstrap 5 syntax work with agpu.
+@import "agpu/bs5-bridge";
+
+// Old agpu stuff from base theme.
+// Massive, needs broken up.
+@import "agpu/variables";
+@import "agpu/core";
+@import "agpu/action-menu";
+@import "agpu/icons";
+@import "agpu/admin";
+@import "agpu/blocks";
+@import "agpu/calendar";
+@import "agpu/contentbank";
+@import "agpu/course";
+@import "agpu/drawer";
+@import "agpu/filemanager";
+@import "agpu/message";
+@import "agpu/question";
+@import "agpu/user";
+@import "agpu/search";
+@import "agpu/forms";
+@import "agpu/login";
+@import "agpu/modules";
+@import "agpu/chat";
+@import "agpu/reports";
+@import "agpu/backup-restore";
+@import "agpu/tables";
+@import "agpu/buttons";
+@import "agpu/grade";
+@import "agpu/templates";
+@import "agpu/undo";
+@import "agpu/debug";
+@import "agpu/sticky-footer";
+@import "agpu/popover-region";
+@import "agpu/tool_usertours";
+@import "agpu/print";
+@import "agpu/modal";
+@import "agpu/layout";
+@import "agpu/prefixes";
+@import "agpu/atto";
+@import "agpu/toasts";
+@import "agpu/navbar";
+@import "agpu/reportbuilder";
+@import "agpu/courseindex";
+@import "agpu/moremenu";
+@import "agpu/primarynavigation";
+@import "agpu/secondarynavigation";
+@import "agpu/tertiarynavigation";
+@import "agpu/process-monitor";
+@import "agpu/agpunet";
+@import "agpu/dropdown";
+@import "agpu/deprecated";

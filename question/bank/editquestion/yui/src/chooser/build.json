@@ -1,0 +1,10 @@
+{
+    "name": "agpu-qbank_editquestion-chooser",
+    "builds": {
+        "agpu-qbank_editquestion-chooser": {
+            "jsfiles": [
+                "chooser.js"
+            ]
+        }
+    }
+}

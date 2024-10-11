@@ -1,0 +1,11 @@
+{
+  "agpu-availability_date-form": {
+    "requires": [
+        "base",
+        "node",
+        "event",
+        "io",
+        "agpu-core_availability-form"
+    ]
+  }
+}

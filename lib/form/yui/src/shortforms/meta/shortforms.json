@@ -1,0 +1,10 @@
+{
+    "agpu-form-shortforms": {
+        "requires": [
+            "node",
+            "base",
+            "selector-css3",
+            "agpu-core-event"
+        ]
+    }
+}

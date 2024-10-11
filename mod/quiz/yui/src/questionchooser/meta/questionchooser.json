@@ -1,0 +1,9 @@
+{
+    "agpu-mod_quiz-questionchooser": {
+        "requires": [
+            "agpu-core-chooserdialogue",
+            "agpu-mod_quiz-util",
+            "querystring-parse"
+        ]
+    }
+}

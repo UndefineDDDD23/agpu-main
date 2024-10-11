@@ -1,0 +1,131 @@
+{{!
+    This file is part of agpu - http://agpu.org/
+
+    agpu is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    agpu is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with agpu.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template theme_boost/footer
+
+    Page footer.
+
+    Example context (json):
+    {
+        "output": {
+            "page_doc_link": "Documentation for this page",
+            "supportemail": "<a href=\"#\">Contact site support</a>",
+            "has_popover_links": true,
+            "services_support": "Services and support",
+            "login_info": "You are logged in as cute kitten",
+            "agpu_release": "90210",
+            "has_communication_links": true,
+            "communication_url": "https://element:8081/#/room/#yourroom:synapse",
+            "communication_link": "<a href=\"#\">Communication room</a>"
+        }
+    }
+}}
+
+<footer id="page-footer" class="footer-popover bg-white">
+    <div data-region="footer-container-popover">
+        {{#output.has_communication_links}}
+            <button onclick="window.open('{{output.communication_url}}', '_blank', 'noreferrer')" class="btn btn-icon bg-primary text-white icon-no-margin btn-footer-communication" aria-label="{{#str}}communicationroomlink, course{{/str}}">
+                {{#pix}}t/messages-o, core{{/pix}}
+            </button>
+        {{/output.has_communication_links}}
+        <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="{{#str}}showfooter, theme_boost{{/str}}">
+            {{#pix}}e/question, core{{/pix}}
+        </button>
+    </div>
+    <div class="footer-content-popover container" data-region="footer-content-popover">
+        {{#output.has_communication_links}}
+            <div class="footer-section p-3 border-bottom footer-link-communication">
+                <div class="footer-support-link">{{{ output.communication_link }}}</div>
+            </div>
+        {{/output.has_communication_links}}
+        {{# output.has_popover_links }}
+            <div class="footer-section p-3 border-bottom">
+                {{# output.page_doc_link }}
+                    <div class="footer-support-link">{{{ output.page_doc_link }}}</div>
+                {{/ output.page_doc_link }}
+
+                {{# output.services_support_link }}
+                    <div class="footer-support-link">{{{ output.services_support_link }}}</div>
+                {{/ output.services_support_link }}
+
+                {{# output.supportemail }}
+                    <div class="footer-support-link">{{{ output.supportemail }}}</div>
+                {{/ output.supportemail }}
+            </div>
+        {{/ output.has_popover_links }}
+        <div class="footer-section p-3 border-bottom">
+            <div class="logininfo">
+                {{{ output.login_info }}}
+            </div>
+            <div class="tool_usertours-resettourcontainer">
+            </div>
+
+            {{{ output.standard_footer_html }}}
+            {{{ output.standard_end_of_body_html }}}
+        </div>
+        <div class="footer-section p-3">
+            <div>{{#str}}poweredbyagpu, core{{/str}}</div>
+            {{#output.agpu_release}}
+                <div>
+                    {{#str}}version, core{{/str}} {{{ output.agpu_release }}}
+                </div>
+            {{/output.agpu_release}}
+        </div>
+    </div>
+
+    <div class="footer-content-debugging footer-dark bg-dark text-light">
+        <div class="container-fluid footer-dark-inner">
+            {{{ output.debug_footer_html }}}
+        </div>
+    </div>
+</footer>
+<div class="additional-footer">
+    <div class="footer-logo">
+        <img src="http://agpu-main/pluginfile.php/1/core_admin/logocompact/300x300/1728629049/logo.png" class="" alt="АГПУ">
+        <p>Федеральное государственное бюджетное образовательное учреждение высшего образования "Азовский государственный педагогический университет" (ФГБОУ ВО "АГПУ") 2023 - 2024 - © Все права защищены</p>
+    </div>
+
+    <div class="">
+        <h2>ПРИЁМНАЯ КОМИССИЯ</h2>
+        <p>komissiya.priymnaya@mail.ru</p>
+        <p>+7 (990) 057-45-95</p>
+    </div>
+
+    <div class="">
+        <h2>КОНТАКТЫ</h2>
+        <p>+7 (990) 256-38-14</p>
+        <p>info@azgpu.ru</p>
+    </div>
+
+    <div class="">
+        <h2>АДРЕС</h2>
+        <p>РФ, г. Бердянск,
+ул. Шмидта, д. 4</p>
+    </div>
+
+    <div class="">
+        <h2>СОЦСЕТИ</h2>
+        <a href="https://vk.com/azovgpu">ВКонтакте →</a>
+        <a href="https://t.me/obraz_agpu_brd">Телеграм →</a>
+    </div>
+
+</div>
+{{#js}}
+require(['theme_boost/footer-popover'], function(FooterPopover) {
+    FooterPopover.init();
+});
+{{/js}}

@@ -1,0 +1,43 @@
+{
+  "agpu-core-notification": {
+    "requires": [
+        "agpu-core-notification-dialogue",
+        "agpu-core-notification-alert",
+        "agpu-core-notification-confirm",
+        "agpu-core-notification-exception",
+        "agpu-core-notification-ajaxexception"
+    ]
+  },
+  "agpu-core-notification-dialogue": {
+    "requires": [
+        "base",
+        "node",
+        "panel",
+        "escape",
+        "event-key",
+        "dd-plugin",
+        "agpu-core-widget-focusafterclose",
+        "agpu-core-lockscroll"
+    ]
+  },
+  "agpu-core-notification-alert": {
+    "requires": [
+        "agpu-core-notification-dialogue"
+    ]
+  },
+  "agpu-core-notification-confirm": {
+    "requires": [
+        "agpu-core-notification-dialogue"
+    ]
+  },
+  "agpu-core-notification-exception": {
+    "requires": [
+        "agpu-core-notification-dialogue"
+    ]
+  },
+  "agpu-core-notification-ajaxexception": {
+    "requires": [
+        "agpu-core-notification-dialogue"
+    ]
+  }
+}

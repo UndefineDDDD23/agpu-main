@@ -1,0 +1,10 @@
+{
+    "agpu-form-dateselector": {
+        "requires": [
+            "base",
+            "node",
+            "overlay",
+            "calendar"
+        ]
+    }
+}

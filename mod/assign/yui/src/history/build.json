@@ -1,0 +1,10 @@
+{
+    "name": "agpu-mod_assign-history",
+    "builds": {
+        "agpu-mod_assign-history": {
+            "jsfiles": [
+                "history.js"
+            ]
+        }
+    }
+}

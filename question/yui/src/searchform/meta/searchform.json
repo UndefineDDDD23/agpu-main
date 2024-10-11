@@ -1,0 +1,8 @@
+{
+  "agpu-question-searchform": {
+    "requires": [
+        "base",
+        "node"
+    ]
+  }
+}

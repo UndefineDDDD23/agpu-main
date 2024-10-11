@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_link-button",
+  "builds": {
+    "agpu-atto_link-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

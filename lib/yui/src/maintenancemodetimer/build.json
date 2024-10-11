@@ -1,0 +1,10 @@
+{
+  "name": "agpu-core-maintenancemodetimer",
+  "builds": {
+    "agpu-core-maintenancemodetimer": {
+      "jsfiles": [
+        "maintenancemodetimer.js"
+      ]
+    }
+  }
+}

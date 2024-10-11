@@ -1,0 +1,10 @@
+{
+  "name": "agpu-message_airnotifier-toolboxes",
+  "builds": {
+    "agpu-message_airnotifier-toolboxes": {
+      "jsfiles": [
+        "toolboxes.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "agpu-core-chooserdialogue",
+  "builds": {
+    "agpu-core-chooserdialogue": {
+      "jsfiles": [
+        "chooserdialogue.js"
+      ]
+    }
+  }
+}

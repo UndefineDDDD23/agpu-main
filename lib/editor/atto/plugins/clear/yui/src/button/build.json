@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_clear-button",
+  "builds": {
+    "agpu-atto_clear-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

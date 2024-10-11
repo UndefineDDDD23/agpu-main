@@ -1,0 +1,18 @@
+# agpu HQ security submission form
+Contact: https://agpu.org/security/report/
+
+# agpu LMS security publications and acknowledgements page
+Acknowledgments: https://agpu.org/security/
+
+# Submission preferred languages
+Preferred-Languages: en
+
+# agpu HQ canonical security.txt file
+Canonical: https://agpu.org/.well-known/security.txt
+
+# agpu LMS Security Procedures document, including Responsible Disclosure Policy
+Policy: https://agpudev.io/general/development/process/security
+
+# Expiry date of this document
+# This information is considered current and up to date until 3 weeks after the next major agpu LMS release
+Expires: 2025-05-05T01:00:00.000Z

@@ -1,0 +1,3 @@
+**/yui/build/** -diff
+**/amd/build/** -diff
+lib/dml/oci_native_agpu_package.sql text eol=lf

@@ -1,0 +1,21 @@
+{
+  "name": "agpu-editor_atto-rangy",
+  "builds": {
+    "agpu-editor_atto-rangy": {
+      "prependfiles": [
+        "rangy-core.js",
+        "rangy-selectionsaverestore.js",
+        "rangy-serializer.js",
+        "rangy-classapplier.js",
+        "rangy-highlighter.js",
+        "rangy-textrange.js"
+      ],
+      "jsfiles": [
+        "init.js"
+      ]
+    }
+  },
+  "shifter": {
+    "lint": false
+  }
+}

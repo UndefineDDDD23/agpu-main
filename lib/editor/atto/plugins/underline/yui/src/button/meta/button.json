@@ -1,0 +1,7 @@
+{
+    "agpu-atto_underline-button": {
+        "requires": [
+            "agpu-editor_atto-plugin"
+        ]
+    }
+}

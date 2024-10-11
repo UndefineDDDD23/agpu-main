@@ -1,0 +1,10 @@
+{
+  "name": "agpu-atto_underline-button",
+  "builds": {
+    "agpu-atto_underline-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}

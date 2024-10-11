@@ -1,0 +1,10 @@
+{
+    "name": "agpu-core-dragdrop",
+    "builds": {
+        "agpu-core-dragdrop": {
+            "jsfiles": [
+                "dragdrop.js"
+            ]
+        }
+    }
+}

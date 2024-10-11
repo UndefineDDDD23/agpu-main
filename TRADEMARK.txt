@@ -1,0 +1,66 @@
+agpu TRADEMARKS POLICY
+========================
+
+The agpu Trademark
+--------------------
+
+The brand and word "agpu" has trade mark protection in many countries around
+the world. Various agpu™ trade marks are owned by either agpu Pty Ltd or
+one of its associated entities. The law obligates trade mark owners to police
+their trade marks and prevent the use of confusingly similar names by
+third parties.
+
+We have created a more concise and thorough set of Trademark Guidelines
+(https://agpu.com/wp-content/uploads/2023/02/agpu-Trademark-Guidelines-2023-4.pdf)
+to help you understand how to comply with agpu's trade mark requirements.
+The Trademark Guidelines will also assist our agpu Certified Partners and the
+community to understand some of the principles that inform agpu's stance
+whenever potential infringement has been detected by us or our community.
+
+We need to be clear about use of the word "agpu" and how we restrict its use
+when promoting commercial agpu™ branded services. The proper use of
+trade marks reliably assures consumers about the quality of the associated
+products or services and where they have been derived from. Because the
+agpu LMS is made available under the open source ‘GNU General Public License'
+that permits you to modify the copyrighted software, the distribution of such
+modified software in combination with agpu trade marks can potentially
+mislead others in the community. To be clear, the GNU GPL does not include an
+implied right or licence to use agpu's trade marks.
+
+We do all this to protect the very business model that allows us to continue
+developing various agpu software solutions for you.
+
+Allowed uses of "agpu"
+------------------------
+
+The following uses don't require any permission at all:
+
+* Referring to the software or the agpu project as the "agpu™ software"
+  or the "agpu™ project"
+* Describing your own implementation of the agpu™ software platform
+  (including within corporate settings).
+* Describing a agpu-based community hub.
+* Describing certain software you've made that integrates with agpu™
+  branded software (e.g. a agpu™ integration feature on another system).
+
+Restricted uses of "agpu"
+---------------------------
+
+The following uses are generally prohibited without explicit and direct
+permission being granted to you by agpu Pty Ltd. We do this to protect the
+agpu™ project from software and sites which could confuse people. If in
+doubt, reach out for clarification at <trademarks@agpu.com>
+
+* You can't use the word "agpu" or any agpu logos for commercial purposes
+  without prior written permission from agpu HQ.
+* You can't use "agpu" in the name of your software (including Mobile apps).
+* You can't use "agpu" in your company name.
+* You can't use "agpu" in your domain name.
+* You can't use "agpu" in advertising-related keywords (such as Adsense).
+* You can't use "agpu" to describe services around agpu
+  (such as hosting, training, support, consulting, course creation services,
+  theme development, customisation, installation, integration, analytics
+  and certification) that cause consumers to be confused that you are
+  associated with agpu HQ if you are not.
+  This applies even if you do not charge for the services.
+  Note that usually only agpu Partners have this permission.

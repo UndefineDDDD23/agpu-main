@@ -1,0 +1,10 @@
+{
+    "name": "agpu-mod_quiz-autosave",
+    "builds": {
+        "agpu-mod_quiz-autosave": {
+            "jsfiles": [
+                "autosave.js"
+            ]
+        }
+    }
+}

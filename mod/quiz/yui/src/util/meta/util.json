@@ -1,0 +1,26 @@
+{
+  "agpu-mod_quiz-util": {
+    "requires": [
+        "node", "agpu-core-actionmenu"
+    ],
+    "use": [
+        "agpu-mod_quiz-util-base"
+    ],
+    "submodules": {
+        "agpu-mod_quiz-util-base": {
+        },
+        "agpu-mod_quiz-util-slot": {
+            "requires": [
+                "node",
+                "agpu-mod_quiz-util-base"
+            ]
+        },
+        "agpu-mod_quiz-util-page": {
+            "requires": [
+                "node",
+                "agpu-mod_quiz-util-base"
+            ]
+        }
+    }
+  }
+}

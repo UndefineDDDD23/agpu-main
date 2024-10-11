@@ -1,0 +1,1 @@
+YUI.add("agpu-course-util-base",function(e,o){e.namespace("agpu.core_course.util")},"@VERSION@");
